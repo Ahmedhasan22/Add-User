@@ -1,0 +1,32 @@
+.form{
+    padding:10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin:50px auto;
+    text-align: left;
+    border:3px solid red;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+.label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:black;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #079b6a;
+    margin: 5px;
+    margin-left: 0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

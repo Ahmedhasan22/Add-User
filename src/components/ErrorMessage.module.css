@@ -1,0 +1,43 @@
+.error {
+    position: absolute;
+    box-sizing: border-box;
+    margin: auto;
+    z-index: 9999;
+    color: rgba(0, 0, 0, 0.767);
+    max-width: 400px;
+    height: fit-content;
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(213, 168, 255);
+    left: 0;
+    right: 0;
+    top: 20%;
+    bottom: 50%;
+    margin-inline: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+.error-header {
+    border-radius:10px 0 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgb(132, 0, 255);
+}
+
+.error-message {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
